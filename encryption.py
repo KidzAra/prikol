@@ -8,7 +8,7 @@ def decrypt(text: str, key: int) -> str:
 
 # пример
 msg = str("Hello, World!")
-key = int(random.randint(1, 100))
+key = int(32)
 enc = encrypt(msg, key)
 dec = decrypt(enc, key)
 
