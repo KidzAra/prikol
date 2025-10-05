@@ -1,5 +1,5 @@
-a = int(1)
-b = int(1)
+a = int(24)
+b = int(9)
 string = str("")
 
 for i in range(a-2):
