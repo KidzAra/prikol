@@ -2,7 +2,7 @@ import random
 
 def generate_password():
     characters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ0"
-    password_length = int(5)
+    password_length = int(4)
     password = ''.join(random.choice(characters) for i in range(password_length))
     return password
 
